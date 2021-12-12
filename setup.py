@@ -1,3 +1,16 @@
+from setuptools import setup
+
+setup(
+  name="vomit",
+  version="0.02",
+  description="The new pop()",
+  url="https://github.com/MiTo0o",
+  author="MiTo",
+  author_email="derzanchiang1800@gmail.com",
+  license="MIT",
+  packages=["vomit"],
+  zip_safe=False,
+  long_description="""
 # vomit
 ________
 Don't like using .pop() because it looks weird?
@@ -27,3 +40,6 @@ puke = vomit(stack)
 
 # stack = [1, 2, 3, 4]
 ```
+  """,
+  long_description_content_type='text/markdown'
+)
